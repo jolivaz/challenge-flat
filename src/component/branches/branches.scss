@@ -1,0 +1,15 @@
+.branches-component {
+    min-height: calc(100vh - 115px - 232px);
+    h2{
+        padding: 10px;
+        color: #6e0707;
+        text-align: center;
+        border-bottom: 1px solid #706F5A;
+    }
+    .MuiCircularProgress-root {
+        svg {
+            color: #6e0707;
+            width: 50px;
+        }
+    }
+}

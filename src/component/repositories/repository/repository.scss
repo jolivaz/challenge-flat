@@ -1,0 +1,33 @@
+.repository-component{
+    max-width: 250px;
+    margin: 15px;
+    padding: 15px;
+    .MuiPaper-root  {
+        padding: 30px 10px;
+    }
+    .MuiTypography-h5{
+        color: #6e0707;
+        overflow: hidden;
+        font-weight: bold;
+        margin-bottom: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .MuiTypography-root {
+        label {
+            font-weight: bold!important;
+        }
+    }
+    .MuiCardActions-root  {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        button {
+            background: #6e0707;
+            color: #fff;
+            font-weight: 500;
+            padding: 8px 15px;
+        
+        }
+    }
+}

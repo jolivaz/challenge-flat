@@ -1,0 +1,17 @@
+.flat-component-search{
+    display: flex;
+    margin: 20px auto 0;
+    justify-content: center;
+    .flat-component-search_input  {
+        display: flex;
+        align-items: center;
+        input {
+            font-size: 20px;
+        }
+        svg {
+            font-size: 32px;
+            color: #706F5A;
+            cursor: pointer;
+        }
+    }
+}   

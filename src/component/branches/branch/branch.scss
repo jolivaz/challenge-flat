@@ -1,0 +1,14 @@
+.branch-component {
+    max-width: 70%;
+    padding: 5x 30px;
+    margin: 0px auto;
+}
+
+@media (max-width: 780px) {
+    .branch-component_item {
+        display: block;
+        .MuiListItemSecondaryAction-root {
+            top: 30%;
+        }
+    }
+}

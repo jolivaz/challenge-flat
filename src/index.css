@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif,
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div::after {
+  border-bottom: none!important;
+}
+
+label.Mui-focused {
+  color: #333!important;
+}
+
+.modal-modal-description_files {
+  display: block;
+}
+
+.modal-modal-description_files span {
+  display: block;
+}
+
+.MuiModal-root .MuiBox-root {
+  width: auto;
+}
+
+.card-component_modal img {
+  height: 100%;
+}
+
+.MuiBreadcrumbs-li {
+  cursor: pointer;
+}
+
+.MuiCircularProgress-root svg {
+  color: #6e0707;
+  width: 50px;
+}
+
+.not-available {
+  display: grid;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.not-available p {
+  font-size: 30px;
+  text-align: center;
+  color: #333333a1;
+}
+
+.not-available img {
+  margin: 0 auto;
+}

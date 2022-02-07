@@ -1,0 +1,41 @@
+.flat-component-header {
+    padding: 5px 25px;
+    background-color: #ADAC8F;
+    .flat-component-header_logo {
+        display: flex;
+        max-height: 65px;
+        align-items: center;
+        justify-content: center;
+    }
+    .flat-component-header_user {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        svg {
+            padding: 5px;
+            color: white;
+            border-radius: 100%;
+            border: 2px solid #fff;
+        }
+        img {
+            height: 40px;
+            border-radius: 100%;
+        }
+        p {
+            color: #fff;
+            margin: 0px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .flat-component-header_user_name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg {
+                padding: 0;
+                border: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.pulls-component {
+    min-height: calc(100vh - 115px - 232px);
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    display: flex;
+    h2 {
+        color: #6e0707;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &_list {
+        border: 1px solid #333;
+        max-width: max-content;
+        margin: 20px auto 0;
+    }
+    .MuiCircularProgress-root {
+        svg {
+            color: #6e0707;
+            width: 50px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.flat-home {
+    .flat-home_form {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin: 60px auto;
+        padding: 25px 10px;
+        border-radius: 20px;
+        align-items: flex-start;
+        justify-content: center;
+        border: 2px solid #ADAC8F;
+        min-height: calc(100vh - 125px - 232px - 50px);
+    }
+}
+@media (max-width: 780px) {
+    .flat-home_form {
+        width: 85%;
+    }
+}
